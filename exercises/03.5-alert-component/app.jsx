@@ -8,14 +8,14 @@ import PropTypes from "prop-types";
  */
 const Alert = (props) => {
 	return (
-		<div class="alert alert-danger" role="alert">
+		<div className="alert alert-danger" role="alert">
 			{props.text}
 		</div>
 	);
 };
 
 Alert.PropTypes = {
-	text: PropTypes.string
+	text: PropTypes.string,
 };
 
 // here is where the alert component is being used, you don't have to edit this part,
